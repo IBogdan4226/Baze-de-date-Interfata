@@ -1,0 +1,61 @@
+----------Persoane----------------
+insert into Persoane values(null,'Miron','Stefan');
+insert into Persoane values(null,'Dumitru','Ion');
+insert into Persoane values(null,'Petruca','Marco');
+insert into Persoane values(null,'Dumitru','Vasile');
+insert into Persoane values(null,'Anton','Ioana');
+insert into Persoane values(null,'Enache','George');
+insert into Persoane values(null,'Lupu','Ana');
+insert into Persoane values(null,'Cucos','Petru');
+
+---------Detalii Persoane-------------
+insert into Detalii_Persoane values(1,'5000613226769','Iasi','AB');
+insert into Detalii_Persoane values(2,'1950623221269','Iasi','B');
+insert into Detalii_Persoane values(3,'5000815272129','Neamt','A');
+insert into Detalii_Persoane values(4,'1970220232527','Braila','A');
+insert into Detalii_Persoane values(5,'2970313232226','Vaslui','B');
+insert into Detalii_Persoane values(6,'1800121132526','Iasi','AB');
+insert into Detalii_Persoane values(7,'2840907233576','Iasi','A'); 
+insert into Detalii_Persoane values(8,'1851008234576','Iasi','O'); 
+
+---------ISTORIC MEDICAL----------
+insert into istoric_medical values(1,'Boala pulmonara cronica obstructiva','Corticoterapie si medicatie antibiotica',to_date('05.07.2020','dd.mm.yyyy'));
+insert into istoric_medical values(1,'Astm','Medicamente anti-inflamatorii',to_date('06.11.2017','dd.mm.yyyy'));
+insert into istoric_medical values(3,'Ateroscleroza','Tratament medicamentos',to_date('25.02.2019','dd.mm.yyyy'));
+insert into istoric_medical values(5,'Astm','Medicamente anti-inflamatorii',to_date('13.09.2015','dd.mm.yyyy'));
+insert into istoric_medical values(6,'Ciroza hepatica','Tratamentul medicamentos al hepatitelor virale',to_date('16.03.2018','dd.mm.yyyy'));
+insert into istoric_medical values(8,'Tuberculoza','Antibiotice',to_date('16.03.2021','dd.mm.yyyy'));
+
+---------Observatii+cazare+adapost---------
+insert into cazare values(1,1,to_date('30.11.2021','dd.mm.yyyy'));
+
+insert into cazare values(2,2,to_date('30.11.2021','dd.mm.yyyy'));
+
+insert into cazare values(3,3,to_date('30.11.2021','dd.mm.yyyy'));
+
+insert into observatii values('A incercat sa fure produse alimentare',5,3,to_date('30.11.2021','dd.mm.yyyy'),3);
+
+insert into cazare values(1,1,to_date('01.12.2021','dd.mm.yyyy'));
+
+insert into cazare values(4,2,to_date('01.12.2021','dd.mm.yyyy'));
+
+insert into cazare values(5,3,to_date('01.12.2021','dd.mm.yyyy'));
+insert into observatii values('S-a batut cu un angajat',9,3,to_date('01.12.2021','dd.mm.yyyy'),5);
+
+insert into cazare values(2,1,to_date('02.12.2021','dd.mm.yyyy'));
+
+insert into observatii values('A venit cu bauturi alcoolice',7,1,to_date('02.12.2021','dd.mm.yyyy'),2);
+
+insert into cazare values(6,2,to_date('02.12.2021','dd.mm.yyyy'));
+
+insert into observatii values('Nu a vrut sa stea la coada',4,2,to_date('02.12.2021','dd.mm.yyyy'),6);
+
+insert into cazare values(7,2,to_date('03.12.2021','dd.mm.yyyy'));
+
+insert into observatii values ('Tulbura linistea',6,2,to_date('03.12.2021','dd.mm.yyyy'),7);
+
+insert into cazare values(8,1,to_date('04.12.2021','dd.mm.yyyy'));
+
+insert into cazare values(4,1,to_date('05.12.2021','dd.mm.yyyy'));
+
+insert into observatii values ('Comportament neadecvat fata de ceilalti',6,1,to_date('05.12.2021','dd.mm.yyyy'),4);
